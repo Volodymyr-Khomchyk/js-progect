@@ -16,8 +16,19 @@
 
 //--------------------------------
 
-const greetArrow = (name) => {
-    console.log('Привіт, ' + name);
+// const greetArrow = (name) => {
+//     console.log('Привіт, ' + name);
+// }
+
+// greetArrow('Mike');
+
+let num1 = Number(prompt('Введіть перше число'));
+let num2 = Number(prompt('Введіть перше число'));
+
+function addTwoNumbers(arg1, arg2){
+    const result = arg1 + arg2;
+    return result;
 }
 
-greetArrow('Mike');
+let result = addTwoNumbers(num1, num2);
+console.log(result);
