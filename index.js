@@ -1,30 +1,23 @@
-// Variable Змінна
-// Створення змінної
-// ключове слово < > ім'я змінної
-// var -- deprecated
-// let -- CD-RW
-// const -- CD-R
+// function addFiveToNumber(number){
+//     let result = number + 5;
+//     console.log(result);
+// }
 
-let box1=null; 
-let box2=5;
-let box3='2';
-let box4=10;
+// addFiveToNumber(15);
 
-console.log(box2+box3);
-console.log(box3-box2);
-console.log(box1+box2);
-console.log(10+underline);
+//--------------------------------
+
+// const greet = function(name){
+//     console.log('Привіт, ' + name);
+// }
+
+// greet('John');
 
 
-// let box2 = "Hello";
-// console.log(box2);
+//--------------------------------
 
-// box2 = '10';
-// console.log(box2);
+const greetArrow = (name) => {
+    console.log('Привіт, ' + name);
+}
 
-// const isActive = false;
-// const isLogged = true;
-
-// const x = 10+2;
-// let y = x;
-// console.log(y);
+greetArrow('Mike');
